@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+body{
+  background-image: url(/prova/background.jpg);
+  background-size: cover;
+}
+
+.container-nero{
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 65%;
+  border-radius: 30px;
+  margin: 30px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+header > img{
+  width: 200px;
+}
+
+header > h1{
+  color: rgb(0, 221, 8);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* ---Barra di navigazione con bottoni--- */
+
+header > nav {
+  background-color: rgb(0, 221, 8);
+  width: 100%;
+}
+
+nav > input{
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0, 0.8);
+  margin: 8px 0px;
+
+}
+
+.monopattino{
+  color: white;
+  text-align: left;
+  margin: 8px 0;
+}
+
+.monopattino > input[type="checkbox"], .monopattino > h2{
+  display: inline-block;
+}
+
+/* freccia prima dell'indirizzo' */
+.monopattino > p:before{
+  content: "\21A6";
+}
+
+.monopattino > div:last-child{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.monopattino > div.orangebar{
+  background-color: rgb(248, 183, 63);
+  width: 45%;
+}
+.monopattino > div.greenbar{
+  background-color: rgb(27, 186, 27);
+  width: 70%;
+}
+.monopattino > div.redbar{
+  background-color:rgb(205, 55, 55);
+  width: 30%;
+}
+
+.monopattino > p{
+  margin: 8px 0;
+  font-weight: lighter;
+}
+
+.monopattino > h2{
+  font-size: 20px;
+}
+.monopattino > div{
+  font-size: 16px;
+}
